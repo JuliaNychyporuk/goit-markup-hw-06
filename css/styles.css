@@ -644,7 +644,7 @@ position: relative;
     display: flex;
 }
 
-/* soc-links */
+/* soc-links footer */
 
 .links-footer {
     margin-left: 70px;
@@ -692,6 +692,100 @@ position: relative;
 .soc-links-footer:focus {
     background-color: #2196F3;
 }
+
+.form-footer {
+margin-right: auto;
+padding-top: 70px;
+padding-bottom: 90px;
+display: flex;
+margin-left: 93px;
+
+}
+
+.label-footer {
+margin: 0;
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.footer-action{
+display: flex;
+}
+
+.footer-action > .input {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 15px 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    outline: none;
+    
+    color: rgba(255, 255, 255, 0.6);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.button-footer{
+min-width: 200px;
+min-height: 50px;
+padding: 10px 28px;
+
+text-align: center;
+border-color: transparent;
+justify-content: center;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.85;
+letter-spacing: 0.06em;
+background-color: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #FFFFFF;
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+align-items: center;
+display: flex;
+}
+
+.icon-send {
+    margin-left: 10px;
+    fill: #FFFFFF;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:hover,
+.input:focus{
+    border: 1px solid rgba(33, 150, 243, 1);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.button-footer:hover,
+.button-footer:focus {
+border: 1px solid rgba(33, 150, 243, 1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
 
 /*-------- Portfolio------- */
 
@@ -929,3 +1023,140 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
+
+  .modal-field {
+    padding-left: 42px;
+  }
+
+.modal-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    margin-bottom: 12px;
+    margin-top: 40px;
+}
+
+.field-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16px;
+    letter-spacing: 0.01em;
+    
+    color: #757575;
+    margin-bottom: 4px;
+}
+
+.modal-input-content {
+    position: relative;
+}
+
+.modal-input-content {
+    width: 448px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.input-modal {
+   width: 100%;
+   height: 100%;
+background: #FFFFFF;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+cursor: pointer;
+
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.field-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translatey(-50%);
+    transition: fill 250ms var(--time-function);
+}
+
+.field-icon:hover,
+.field-icon:focus {
+    color: #2196F3;
+}
+
+.text-area {
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+width: 448px;
+height: 120px;
+padding-bottom: 20px;
+resize: none;
+
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-modal:hover,
+.input-modal:focus {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+}
+
+.text-area:hover,
+.text-area:focus {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+}
+
+.modal-text-area {
+margin-bottom: 20px;
+
+}
+
+.text-area {
+    cursor: pointer;
+}
+
+.input-check {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.check-button {
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: #188CE8;
+    color: #FFFFFF;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.checkbox-content {
+    margin-bottom: 30px;
+}
+
+.check-button:hover,
+.check-button:focus {
+background-color: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
